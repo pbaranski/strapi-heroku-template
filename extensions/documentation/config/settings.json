@@ -7,8 +7,7 @@
       "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
       "contact": {
         "name": "TEAM",
-        "email": "contact-email@something.io",
-        "url": "mywebsite.io"
+        "url": "jaktestowac.pl"
       },
       "license": {
         "name": "Apache 2.0",
@@ -30,12 +29,8 @@
         "description": "Development server"
       },
       {
-        "url": "YLOLO",
+        "url": "api2-strapiv5.herokuapp.com",
         "description": "Staging server"
-      },
-      {
-        "url": "YOUR_PRODUCTION_SERVER",
-        "description": "Production server"
       }
     ],
     "externalDocs": {
