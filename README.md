@@ -13,7 +13,30 @@ This repository contains a basic Strapi application which is quickly and easily 
 To deploy this project on Heroku, you'll need:
 
 - An Heroku account (Free)
-- (Hope we remove dependency) Cloudinary account for hosting your assets (Free) 
+
+## Hosting images
+Heroku do not save local files so external service need to be used:
+- Add: "strapi-provider-upload-cloudinary" to package.json
+- Ucomment config/plugins.js content 
+- Add to app.js: 
+ ```
+ "env": {
+    "CLOUDINARY_NAME": {
+      "description": "Cloud name of your Cloudinary account",
+      "required": "true"
+    },
+    "CLOUDINARY_KEY": {
+      "description": "Cloudinary API Key",
+      "required": "true"
+    },
+    "CLOUDINARY_SECRET": {
+      "description": "Cloudinary API Secret",
+      "required": "true"
+    }
+  }
+  ```
+
+- Add Cloudinary account for hosting your assets (Free) 
 
 ## Database
 
