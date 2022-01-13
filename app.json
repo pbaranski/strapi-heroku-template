@@ -14,9 +14,8 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
-  // ,
-  // "env": {
+  ],
+  "env": {
   //   "CLOUDINARY_NAME": {
   //     "description": "Cloud name of your Cloudinary account",
   //     "required": "true"
@@ -29,5 +28,5 @@
   //     "description": "Cloudinary API Secret",
   //     "required": "true"
   //   }
-  // }
+  }
 }
