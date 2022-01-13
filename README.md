@@ -2,16 +2,18 @@
 
 This repository contains a basic Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
 
-<a href="https://www.heroku.com/deploy/?template=https://github.com/pbaranski/strapi-heroku-template">
+[![Deploy Directly to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pbaranski/strapi-heroku-template)
+
+<!-- <a href="https://www.heroku.com/deploy/?template=https://github.com/pbaranski/strapi-heroku-template">
 <img src="https://assets.strapi.io/uploads/Deploy_button_heroku_b1043fc67d.png" />
-</a>
+</a> -->
 
 ## Requirements
 
 To deploy this project on Heroku, you'll need:
 
 - An Heroku account (Free)
-- A Cloudinary account for hosting your assets (Free)
+- (Hope we remove dependency) Cloudinary account for hosting your assets (Free) 
 
 ## Database
 
