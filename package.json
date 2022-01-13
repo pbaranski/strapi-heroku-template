@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi start",
+    "start-prod": "strapi start",
     "start": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi",
@@ -20,7 +20,7 @@
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
     "strapi-connector-bookshelf": "3.6.3",
-    "strapi-plugin-documentation": "3.6.3",  
+    "strapi-plugin-documentation": "3.6.3",
     "strapi-plugin-content-manager": "3.6.3",
     "strapi-plugin-content-type-builder": "3.6.3",
     "strapi-plugin-email": "3.6.3",
@@ -42,9 +42,7 @@
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "futureDependencies":
-  {
+  "futureDependencies": {
     "strapi-provider-upload-cloudinary": "^3.6.3"
   }
-
 }
