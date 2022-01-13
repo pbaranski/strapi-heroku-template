@@ -29,9 +29,13 @@
         "description": "Development server"
       },
       {
-        "url": "api2-strapiv5.herokuapp.com",
+        "url": "http://localhost",
         "description": "Staging server"
-      }
+      },
+      {
+        "url": "https://api2-strapiv5.herokuapp.com",
+        "description": "Staging server 2"
+      } 
     ],
     "externalDocs": {
       "description": "Find out more",
