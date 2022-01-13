@@ -29,7 +29,7 @@
         "description": "Development server"
       },
       {
-        "url": "http://localhost",
+        "url": "http://0.0.0.0",
         "description": "Staging server"
       },
       {
