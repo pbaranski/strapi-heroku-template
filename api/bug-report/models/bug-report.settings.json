@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bug_reports",
+  "info": {
+    "name": "BugReport",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "dateObserved": {
+      "type": "datetime"
+    },
+    "reproductionSteps": {
+      "type": "richtext"
+    },
+    "severity": {
+      "type": "enumeration",
+      "enum": [
+        "critical",
+        "major",
+        "minor"
+      ]
+    }
+  }
+}
