@@ -15,7 +15,7 @@
       }
     },
     "x-strapi-config": {
-      "path": "/documentation",
+      "path": "/",
       "showGeneratedFiles": true,
       "pluginsForWhichToGenerateDoc": [
         "email",
@@ -33,8 +33,20 @@
         "description": "Staging server"
       },
       {
-        "url": "https://api2-strapiv5.herokuapp.com",
+        "url": "https://0.0.0.0",
         "description": "Staging server 2"
+      },
+      {
+        "url": "0.0.0.0",
+        "description": "Staging server 3"
+      },
+      {
+        "url": "",
+        "description": "Staging server 4"
+      },
+      {
+        "url": "https://api2-strapiv5.herokuapp.com",
+        "description": "Staging server full"
       } 
     ],
     "externalDocs": {
