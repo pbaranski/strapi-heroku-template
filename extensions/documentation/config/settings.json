@@ -15,12 +15,9 @@
       }
     },
     "x-strapi-config": {
-      "path": "/",
+      "path": "/documentation",
       "showGeneratedFiles": true,
       "pluginsForWhichToGenerateDoc": [
-        "email",
-        "upload",
-        "users-permissions"
       ]
     },
     "servers": [
@@ -29,23 +26,7 @@
         "description": "Development server"
       },
       {
-        "url": "http://0.0.0.0",
-        "description": "Staging server"
-      },
-      {
-        "url": "https://0.0.0.0",
-        "description": "Staging server 2"
-      },
-      {
-        "url": "0.0.0.0",
-        "description": "Staging server 3"
-      },
-      {
-        "url": "",
-        "description": "Staging server 4"
-      },
-      {
-        "url": "https://api2-strapiv5.herokuapp.com",
+        "url": "https://api2-strapi-pb.herokuapp.com",
         "description": "Staging server full"
       } 
     ],
@@ -60,5 +41,12 @@
     ],
     "paths": {},
     "tags": [],
-    "components": {}
+    "components": {},
+    "x-strapi-rem": {
+      "remPluginsForWhichToGenerateDoc": [
+        "email",
+        "upload",
+        "users-permissions"
+      ]
+    }
   }
