@@ -14,6 +14,10 @@ To deploy this project on Heroku, you'll need:
 
 - An Heroku account (Free)
 
+## Swagger 
+Due to some problems with URLS it need to be set manually in 
+extensions\documentation\config\settings.json
+
 ## Hosting images
 Heroku do not save local files so external service need to be used:
 - Add: "strapi-provider-upload-cloudinary" to package.json
