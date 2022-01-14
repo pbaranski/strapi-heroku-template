@@ -1,6 +1,6 @@
 # Strapi Heroku Deploy Button
 
-This repository contains a basic Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
+This repository contains a custom Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
 
 [![Deploy Directly to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pbaranski/strapi-heroku-template)
 
