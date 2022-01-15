@@ -26,6 +26,10 @@
         "description": "Heroku server"
       },
       {
+        "url": "https://api2-strapi-pb-dev.herokuapp.com",
+        "description": "Heroku server dev"
+      },
+      {
         "url": "http://localhost:1337",
         "description": "Development server"
       }
