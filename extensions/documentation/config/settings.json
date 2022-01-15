@@ -22,13 +22,13 @@
     },
     "servers": [
       {
-        "url": "http://localhost:1337",
-        "description": "Development server"
+        "url": "https://api2-strapi-pb.herokuapp.com",
+        "description": "Heroku server"
       },
       {
-        "url": "https://api2-strapi-pb.herokuapp.com",
-        "description": "Staging server full"
-      } 
+        "url": "http://localhost:1337",
+        "description": "Development server"
+      }
     ],
     "externalDocs": {
       "description": "Find out more",
