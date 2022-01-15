@@ -19,6 +19,7 @@
     "sqlite3": "latest",
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
+    "strapi-plugin-config-sync": "0.1.6",
     "strapi-connector-bookshelf": "3.6.3",
     "strapi-plugin-documentation": "3.6.3",
     "strapi-plugin-content-manager": "3.6.3",
