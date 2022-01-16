@@ -1,4 +1,4 @@
-// module.exports = ({ env }) => ({
+module.exports = ({ env }) => ({
 //   upload: {
 //     provider: "cloudinary",
 //     providerOptions: {
@@ -11,4 +11,24 @@
 //       delete: {},
 //     },
 //   },
-// });
+
+  'config-sync': {
+    destination: "extensions/config-sync/files/",
+    minify: false,
+    importOnBootstrap: false,
+    include: [
+    ],
+    exclude: [
+      "core-store.core_admin_auth",
+      "core-store.plugin_documentation_config",
+      "core-store.plugin_i18n_default_locale",
+      "core-store.plugin_upload_settings",
+      "core-store.plugin_users-permissions_advanced",
+      "core-store.plugin_users-permissions_email",
+      "core-store.authenticated",
+      "core-store.plugin_users-permissions_grant",
+      "role-permissions.authenticated",
+      "role-permissions.public"
+    ]
+  }
+});
