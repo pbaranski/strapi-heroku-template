@@ -14,5 +14,11 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "Enter same name as in app name field above",
+      "required": "false"
+    }
+  }
 }
