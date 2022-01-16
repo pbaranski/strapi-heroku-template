@@ -15,7 +15,7 @@ module.exports = () => {
 //   // read file and make object
 //   let content = JSON.parse(fs.readFileSync('../../extensions/documentation/config/settings.json ', 'utf8'));
 //   // edit or add property
-//   servers[1].url = `https://${process.env.$heroku-app-name}.herokuapp.com`;
+//   servers[1].url = `https://${process.env.$HEROKU_APP_NAME.herokuapp.com`;
 //   //write file
 //   fs.writeFileSync('file.json', JSON.stringify(content));
   
