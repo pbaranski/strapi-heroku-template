@@ -1,3 +1,6 @@
+# experimental Deploy Glitch
+[![Remix on Glitch](https://cdn.glitch.me/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button-v2.svg)](https://glitch.com/edit/#!/import/github/pbaranski/strapi-heroku-template)
+
 # Strapi Heroku Deploy Button
 
 This repository contains a custom Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
